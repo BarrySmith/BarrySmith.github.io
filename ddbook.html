@@ -1,0 +1,150 @@
+<html>
+
+<head>
+<title>Domain Decomposition: Parallel Multilevel Methods for Elliptic PDES</title>
+</head>
+
+<body>
+
+<h1>Domain Decomposition</h1>
+
+<h2>Parallel Multilevel Methods for Elliptic Partial Differential Equations</h2>
+
+<p><a href="http://www.mcs.anl.gov/~bsmith/">Barry Smith</a>, <a
+href="http://www.ii.uib.no/~petter/">Petter Bjorstad</a>, and <a
+href="http://www.mcs.anl.gov/~gropp/">William Gropp</a> </p>
+
+<p>The emergence of parallel computers and their potential for the numerical solution of
+Grand Challenge problems has led to a large amount of research in domain decomposition
+methods. This book presents an easy-to-read discussion of domain decomposition algorithms,
+their implementation and analysis. This book is ideal for graduate students about to
+embark on a career in computational science. It will also be a valuable resource for all
+those interested in parallel computing and numerical computational methods. </p>
+
+<p>Cambridge University Press: <a href="http://www.cup.cam.ac.uk">Europe</a>- <a
+href="http://www.cup.org">North America</a></p>
+
+<p>ISBN 0-521-49589-X</p>
+
+<p>Domain Decomposition will be available at your favorite bookstore or order directly
+from Cambridge. </p>
+
+<h2>Ordering Information</h2>
+
+<menu>
+  <li>North America: Price $39.95. Telephone orders 1-800-872-7423. <a
+    href="http://www.cup.org/Titles/49/052149589X.html">Electronic orders.</a> </li>
+  <li>Australia: Cambridge University Press, Australian Branch, 10 Stamford Rd (or P.O. Box
+    85), Oakleigh, Victoria. 3166. Phone: 03 568 0322. Fax: 03 568 1517. </li>
+  <li>Europe and elsewhere: Customer Services Dept, Cambridge University Press, The Edinburgh
+    Building, Cambridge CB2 2RU, UK. Phone: +44 (1223) 325970. Fax: +44 (1223) 325959. Email:
+    Trade@cup.cam.ac.uk. </li>
+</menu>
+
+<h2>Features</h2>
+
+<menu>
+  <li>Complete descriptions of most standard domain decomposition, multilevel, and multigrid
+    algorithms. </li>
+  <li>All algorithms carefully presented using easy-to-understand matrix notation. </li>
+  <li>Numerical results indicating the fundamental behavior of the algorithms. </li>
+  <li>Careful development of the convergence theory for these methods written for a wide
+    audience. </li>
+  <li>Discussion of parallel implementations of these methods. </li>
+</menu>
+
+<h2>Table of Contents</h2>
+
+<menu>
+  <li>Chapter 1: One Level Algorithms <menu>
+      <li>1.1 Classical Alternating Schwarz Method </li>
+      <li>1.2 Approximate Solvers </li>
+      <li>1.3 Many Subdomains </li>
+      <li>1.4 Convergence Behavior </li>
+      <li>1.5 Implementation Issues </li>
+      <li>1.6 Variational Formulation </li>
+    </menu>
+  </li>
+  <li>Chapter 2: Two Level Algorithms <menu>
+      <li>2.1 Subdomain Solves Are Not Sufficient </li>
+      <li>2.2 A Simple Two Level Method </li>
+      <li>2.3 General Two Level Methods </li>
+      <li>2.4 Coarse Grid Corrections </li>
+      <li>2.5 Convergence Behavior </li>
+      <li>2.6 Implementation Issues </li>
+      <li>2.7 Fourier Analysis of Two Level Methods </li>
+      <li>2.8 Variational Formulation </li>
+    </menu>
+  </li>
+  <li>Chapter 3: Multilevel Algorithms <menu>
+      <li>3.1 Additive Multilevel Schwarz Methods </li>
+      <li>3.2 Multiplicative Multilevel Schwarz Methods </li>
+      <li>3.3 Full Multigrid </li>
+      <li>3.4 Practical Multilevel Methods </li>
+      <li>3.5 Multilevel Methods as Classical Jacobi and Gauss-Seidel </li>
+      <li>3.6 Complexity Issues </li>
+      <li>3.7 Implementation Issues </li>
+      <li>3.8 Variational Formulation </li>
+    </menu>
+  </li>
+  <li>Chapter 4: Substructuring Methods <menu>
+      <li>4.1 Direct Substructuring Methods </li>
+      <li>4.2 The Two Subdomain Case </li>
+      <li>4.3 Many Subdomains </li>
+      <li>4.4 Inexact Subdomain Solves </li>
+      <li>4.5 Implementation Issues </li>
+      <li>4.6 Variational Formulation </li>
+    </menu>
+  </li>
+  <li>Chapter 5: A Convergence Theory <menu>
+      <li>5.1 Abstract Convergence Analysis </li>
+      <li>5.2 Analysis of Standard Methods </li>
+      <li>5.3 Indefinite and Nonsymmetric Problems </li>
+    </menu>
+  </li>
+  <li>Appendix 1: Preconditioners and Accelerators </li>
+  <li>Appendix 2: Software for Numerical Parallel Computing </li>
+</menu>
+
+<h2>Errata</h2>
+
+<menu>
+  <li>Page 15, Computational results 1.1.2 In these comparisons alternating Schwarz refers to
+    alternating Schwarz without a Krylov accelerator while multiplicative Schwarz is (because
+    the grids match) alternating Schwarz with GMRES acceleration. </li>
+  <li>Page 34, line 13. &quot;partioning&quot; should be &quot;partitioning&quot;. </li>
+  <li>Page 36, line 4. &quot;Find v_1 \element V_1&quot; should be &quot;Find e_1 \element
+    V_1&quot;. </li>
+  <li>Page 57, line 24, &quot;A_{h} u = 1/h^{2} (...) u = f&quot; should be &quot;A_{h} u =
+    1/h (...) u = h f&quot;. </li>
+  <li>Page 58, line 21, &quot;A_{H} = 1/H^{2}(....)&quot; should be A_{H} = 1/H(....)&quot;. </li>
+  <li>Page 99, line 16. &quot;that it helpful&quot; should be &quot;that it is helpful&quot;. </li>
+  <li>Page 103,line 15,&quot;(5 and 20 ...&quot; should be &quot;(5 or 6 and 20 ...&quot;</li>
+  <li>Page 103,line 19,remove &quot;,but this time&quot;</li>
+  <li>Page 106 line 15, The sentence beginning &quot;Using this, we see ... u^{(i)}_{B}.&quot;
+    should be removed. </li>
+  <li>Page 106, Equation (4.1) should NOT have the \tilde{R}_{i} next to the f_{I}^{(i)} </li>
+  <li>Page 107, line 22. &quot;competely&quot; should be &quot;completely&quot;.</li>
+  <li>Page 113,equation above (4.5) should have a &quot;g&quot; on the right hand side rather
+    than &quot;f_B&quot; </li>
+  <li>Page 137,the expression z^{(i)}z^{(i)T}/z^{(i)T}z^{(i)} should be z^{(i)}z^{(i)T}\hat{S}^{(i)}/z^{(i)T}\hat{S}^{(i)}z^{(i)}
+    because the projection is in the inner product induced by \hat{S}^{(i)}. </li>
+  <li>Page 153, the symmetric forms of the algorithms only make sense when the operator A and the preconditioners B_i are all symmetric </li>
+  <li>Page 172, line 16. &quot;Cr^{-2} \sum ...&quot; should be &quot;C \sum r^{-2} ...&quot;
+    since &quot;r&quot; is a function of the elements being summed over. </li>
+  <li>Page 220, line 16. &quot;Lois Curfman McInncs&quot; should be &quot;Lois Curfman
+    McInnes&quot;. </li>
+  <li>Page 224. &quot;Mathew, J. P.&quot; should be &quot;Mathew, T. P.&quot; </li>
+  <li>Page 224. &quot;Wheeler, N. F.&quot; should be &quot;Wheeler, M. F.&quot; </li>
+</menu>
+
+<h2>Related Materials</h2>
+
+<menu>
+  <li><a href="http://www.mcs.anl.gov/petsc/petsc.html">PETSc 2.0: Parallel numerical software
+    for PDES.</a> </li>
+  <li><a href="http://na.cs.yale.edu/mgnet/www/mgnet.html">MG-NET: Multigrid/Domain
+    Decomposition database.</a> </li>
+</menu>
+</body>
+</html>
